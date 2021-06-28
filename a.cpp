@@ -21,10 +21,10 @@ void traverse(int **A,int x,int y,int m,int n,int dir){
 	else if((x>=m && dir==0)&&(y<0 && dir==0)){
 		traverse(A,x-1,y+2,m,n,1);
 	}
-	else if(x>=m && dir==0){
+	else if(x>=m){
 		traverse(A,x-1,y+2,m,n,1);
 	}
-	else if(y<0 && dir==0){
+	else if(y<0){
 		traverse(A,x,y+1,m,n,1);
 	}
 	else if(dir==0){
