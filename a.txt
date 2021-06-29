@@ -1,1 +1,1 @@
-diagonal traversal
+re : diagonal traversal

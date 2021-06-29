@@ -1,0 +1,2 @@
+divide array into 2 equal sum subarrays and discard 1 
+max : number of divisions
