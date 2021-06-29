@@ -11,11 +11,11 @@ void traverse(int **A,int x,int y,int m,int n,int dir){
 	else if(((x<0) && dir==1) && (y>=n && dir==1)){
 		traverse(A,x+2,y-1,m,n,0);
 	}
-	else if((x<0) && dir==1){
+	else if(x<0){
 		dir=0;
 		traverse(A,x+1,y,m,n,0);
 	} 
-	else if(y>=n && dir==1){
+	else if(y>=n){
 		traverse(A,x+2,y-1,m,n,0);
 	}
 	else if((x>=m && dir==0)&&(y<0 && dir==0)){
